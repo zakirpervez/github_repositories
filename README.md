@@ -10,9 +10,7 @@ Github Repositories is a machine test for [company_name] where we fetch reposito
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install?gad_source=1&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5O-p_pe4yjjTZLdxJn7NMXlYPwPdxQR0NcrATYA6LvvmFc-WfYcQ0YaAmqwEALw_wcB&gclsrc=aw.ds)
 - [Dart](https://dart.dev/)
-- [Provider](https://pub.dev/packages/provider): Used for dependency injection.
 - [Dio](https://pub.dev/packages/dio): Used for making REST API calls.
-- [Equatable](https://pub.dev/packages/equatable): Used to compare objects.
 - [Bloc](https://pub.dev/packages/flutter_bloc): Used for state management.
 - [Cached Network Image](https://pub.dev/packages/cached_network_image): Used to display images from URLs and cache them.
 - [Path](https://pub.dev/packages/path): Used to manipulate file paths, especially for the database file.
