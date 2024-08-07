@@ -1,9 +1,8 @@
-```markdown
-# Github Repositories
+#Github Repositories
 
-### A Flutter machine test based on the GitHub API
+###A Flutter machine test based on the GitHub API
 
-#### Description
+####Description
 
 Github Repositories is a machine test for [company_name] where we fetch repositories using the GitHub API every 12 hours. On the initial API call, we store the data offline. If the user returns within 12 hours, we display the data from the local database.
 
@@ -25,7 +24,7 @@ Github Repositories is a machine test for [company_name] where we fetch reposito
 - [Http Mock Adapter](https://pub.dev/packages/http_mock_adapter): Used to mock Dio.
 - [Build Runner](https://pub.dev/packages/build_runner): Used to generate Dart code.
 
-### Architecture
+###Architecture
 
 - I am using a hybrid architecture which is inspired from coordinator, mvvm & clean architecture pattern.
   - **View/Widget**: Represent a flutter widget.
@@ -35,23 +34,23 @@ Github Repositories is a machine test for [company_name] where we fetch reposito
   - **Bloc**: Responsible to hold and manipulate the widget states.
   - **Data Source[Remote & Local]**: Represent a datasource from where we are fetching the data.
 
-### Subversion
+###Subversion
 - There is no specific sub-versioning used inside this project. However, I prefer to use Git/GitLab/Bitbucket/GitHub.
 - For branching strategy, I prefer to use [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/).
 
-### Testing
+###Testing
 - Performed manual testing.
 - Wrote unit test cases.
-### Notes : Due to limited time constraint written limited test cases.
+###Notes : Due to limited time constraint written limited test cases.
 
-### Logging
+###Logging
 - No third-party library is used for logging.
 - Used API interceptor to log API details.
 
-### Screens
+###Screens
 There is only one screen and a modal. Please check the video of the app for reference.
 - **Repositories Screen**: Displays all repositories fetched from the API/database. There are two lists inside the repositories screen:
   - **Infinite Scroll List**: A horizontal scroll list that contains the first 5 repositories and allows infinite scrolling in both directions.
   - **Repositories List**: Contains the remaining repositories.
-- **Repositories Detail Modal**: A bottom sheet that contains the details of a repository. Once the user clicks any item in the lists, this bottom sheet is displayed. On clicking the Close button, we send data back to the native screen and exit the app.
-```
+- **Repositories Detail Modal**: A bottom sheet that contains the details of a repository.
+Once the user clicks any item in the lists, this bottom sheet is displayed. On clicking the Close button, we send data back to the native screen and exit the app.
