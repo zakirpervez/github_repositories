@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:github_repositories/remote/entities/parents.dart","transitive":false},{"uri":"package:github_repositories/remote/entities/commits_author.dart","transitive":false},{"uri":"package:github_repositories/remote/entities/commit.dart","transitive":false}],"elements":[]}

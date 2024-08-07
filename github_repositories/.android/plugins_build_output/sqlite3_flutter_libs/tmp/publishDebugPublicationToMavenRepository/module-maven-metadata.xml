@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>eu.simonbinder.sqlite3_flutter_libs</groupId>
+  <artifactId>sqlite3_flutter_libs_debug</artifactId>
+  <versioning>
+    <latest>1.0</latest>
+    <release>1.0</release>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20240807134935</lastUpdated>
+  </versioning>
+</metadata>

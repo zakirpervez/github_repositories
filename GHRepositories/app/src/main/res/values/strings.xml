@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GHRepositories</string>
+    <string name="show_repo">Show Repo</string>
+</resources>

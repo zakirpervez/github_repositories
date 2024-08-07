@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:flutter/material.dart","transitive":false},{"uri":"package:github_repositories/screen/repositories/actions/repositories_action.dart","transitive":false},{"uri":"package:github_repositories/screen/repositories/coordinator/repositories_coordinator.dart","transitive":false}],"elements":[]}

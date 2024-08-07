@@ -1,0 +1,211 @@
+{
+  "elements": {
+    "commit": {
+      "id": {
+        "library_uri": "package:github_repositories/database/model/commit.dart",
+        "name": "commit"
+      },
+      "declaration": {
+        "source_uri": "package:github_repositories/database/model/commit.dart",
+        "offset": 42,
+        "name": "Commit"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 81,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "repository_name",
+          "nameInDart": "repositoryName",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 134,
+            "name": "repositoryName"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "repository_node_id",
+          "nameInDart": "repositoryNodeId",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 191,
+            "name": "repositoryNodeId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "sha",
+          "nameInDart": "sha",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 250,
+            "name": "sha"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "node_id",
+          "nameInDart": "nodeId",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 296,
+            "name": "nodeId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "unique"
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "message",
+          "nameInDart": "message",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 354,
+            "name": "message"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "url",
+          "nameInDart": "url",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 404,
+            "name": "url"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": true,
+          "nameInSql": "commit_date",
+          "nameInDart": "commitDate",
+          "declaration": {
+            "source_uri": "package:github_repositories/database/model/commit.dart",
+            "offset": 454,
+            "name": "commitDate"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [],
+      "custom_parent_class": null,
+      "fixed_entity_info_name": null,
+      "base_dart_name": "Commit",
+      "row_class_name": "CommitData",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart"
+  ]
+}

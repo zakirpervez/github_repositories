@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "eu.simonbinder.sqlite3_flutter_libs",
+    "module": "sqlite3_flutter_libs_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite3_flutter_libs_debug-1.0.aar",
+          "url": "sqlite3_flutter_libs_debug-1.0.aar",
+          "size": 4935,
+          "sha512": "59abff81954c3210d84d94777952943bab3aeb04922e433d9a5beb2f25d3ac6b849b317bf9401209f663ba0e34360c1461f0d4b95dd06ddf8beb7cb63016af82",
+          "sha256": "fad17d362f703b6c237ccc0ae620eac8d315f4c89f5aaeb811df1c2d33dc5fec",
+          "sha1": "63476d9889bfcc2ce48a8e94898152ee4889e608",
+          "md5": "9d07c616139a04bea553aef8faf220bd"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "eu.simonbinder",
+          "module": "sqlite3-native-library",
+          "version": {
+            "requires": "3.46.0+1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite3_flutter_libs_debug-1.0.aar",
+          "url": "sqlite3_flutter_libs_debug-1.0.aar",
+          "size": 4935,
+          "sha512": "59abff81954c3210d84d94777952943bab3aeb04922e433d9a5beb2f25d3ac6b849b317bf9401209f663ba0e34360c1461f0d4b95dd06ddf8beb7cb63016af82",
+          "sha256": "fad17d362f703b6c237ccc0ae620eac8d315f4c89f5aaeb811df1c2d33dc5fec",
+          "sha1": "63476d9889bfcc2ce48a8e94898152ee4889e608",
+          "md5": "9d07c616139a04bea553aef8faf220bd"
+        }
+      ]
+    }
+  ]
+}

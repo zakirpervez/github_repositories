@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "eu.simonbinder.sqlite3_flutter_libs",
+    "module": "sqlite3_flutter_libs_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite3_flutter_libs_profile-1.0.aar",
+          "url": "sqlite3_flutter_libs_profile-1.0.aar",
+          "size": 4790,
+          "sha512": "1e13cd379572fffdaa23bf40fc9f13d93a60929ba19eee5ed353ebcbe2e992c9222a0077096a371fc215f9aaa15e976ae39a9ec82d502a451ed01631a6b4c78c",
+          "sha256": "25ae79f2595577f44df8aa32befd0dd71c5f4800ccce3b1942c1fbcd29cc4fe2",
+          "sha1": "ea61344a06da5f060c2cbe57d0ac5b9bea25681b",
+          "md5": "7161de6529ab57841330e4fe6c106120"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "eu.simonbinder",
+          "module": "sqlite3-native-library",
+          "version": {
+            "requires": "3.46.0+1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite3_flutter_libs_profile-1.0.aar",
+          "url": "sqlite3_flutter_libs_profile-1.0.aar",
+          "size": 4790,
+          "sha512": "1e13cd379572fffdaa23bf40fc9f13d93a60929ba19eee5ed353ebcbe2e992c9222a0077096a371fc215f9aaa15e976ae39a9ec82d502a451ed01631a6b4c78c",
+          "sha256": "25ae79f2595577f44df8aa32befd0dd71c5f4800ccce3b1942c1fbcd29cc4fe2",
+          "sha1": "ea61344a06da5f060c2cbe57d0ac5b9bea25681b",
+          "md5": "7161de6529ab57841330e4fe6c106120"
+        }
+      ]
+    }
+  ]
+}
