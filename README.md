@@ -1,12 +1,12 @@
-#Github Repositories
+<h1>Github Repositories</h1>
 
-###A Flutter machine test based on the GitHub API
+<h3>A Flutter machine test based on the GitHub API</h3>
 
-####Description
+<h3>Description</h3>h3>
 
 Github Repositories is a machine test for [company_name] where we fetch repositories using the GitHub API every 12 hours. On the initial API call, we store the data offline. If the user returns within 12 hours, we display the data from the local database.
 
-### Technologies Stack
+<h3>Technologies Stack<</h3>>
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install?gad_source=1&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5O-p_pe4yjjTZLdxJn7NMXlYPwPdxQR0NcrATYA6LvvmFc-WfYcQ0YaAmqwEALw_wcB&gclsrc=aw.ds)
 - [Dart](https://dart.dev/)
@@ -22,7 +22,7 @@ Github Repositories is a machine test for [company_name] where we fetch reposito
 - [Http Mock Adapter](https://pub.dev/packages/http_mock_adapter): Used to mock Dio.
 - [Build Runner](https://pub.dev/packages/build_runner): Used to generate Dart code.
 
-###Architecture
+<h3>Architecture</h3>
 
 - I am using a hybrid architecture which is inspired from coordinator, mvvm & clean architecture pattern.
   - **View/Widget**: Represent a flutter widget.
@@ -32,20 +32,20 @@ Github Repositories is a machine test for [company_name] where we fetch reposito
   - **Bloc**: Responsible to hold and manipulate the widget states.
   - **Data Source[Remote & Local]**: Represent a datasource from where we are fetching the data.
 
-###Subversion
+<h3>Subversion</h3>
 - There is no specific sub-versioning used inside this project. However, I prefer to use Git/GitLab/Bitbucket/GitHub.
 - For branching strategy, I prefer to use [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/).
 
-###Testing
+<h3>Testing</h3>
 - Performed manual testing.
 - Wrote unit test cases.
-###Notes : Due to limited time constraint written limited test cases.
+<i>Notes : Due to limited time constraint written limited test cases.</i>
 
-###Logging
+<h3>Logging</h3>
 - No third-party library is used for logging.
 - Used API interceptor to log API details.
 
-###Screens
+<h3>Screens</h3>
 There is only one screen and a modal. Please check the video of the app for reference.
 - **Repositories Screen**: Displays all repositories fetched from the API/database. There are two lists inside the repositories screen:
   - **Infinite Scroll List**: A horizontal scroll list that contains the first 5 repositories and allows infinite scrolling in both directions.
